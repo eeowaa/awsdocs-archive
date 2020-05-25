@@ -1,0 +1,96 @@
+* README How to download offline AWS documentation
+:WHY:
+I find their web documentation to be quite lacking in usability.
+Also, makes it harder to link to from Org Mode, etc.
+
+Luckily, all of their documentation is open-sourced, so I can just
+clone all of their repos.
+
+I think it is very important for me to have documentation that I am
+comfortable browsing.  It drastically accelerates my learning both
+when getting started and when referencing on down the road.
+:END:
+Currently, https://github.com/awsdocs has 183 repositories, so the
+following command sequence will work to download all of them:
+
+#+CAPTION: Clone all documentation repos (<= 200)
+#+BEGIN_SRC sh
+for page in 1 2
+do
+    wget -qO- "https://api.github.com/orgs/awsdocs/repos?per_page=100&page=$page" \
+        | jq ".[].ssh_url" | xargs -L 1 git clone
+done
+#+END_SRC
+
+#+CAPTION: Update all repos
+#+BEGIN_SRC sh
+for x in *; do git -C $x pull; done
+#+END_SRC
+
+* TODO Make a ~.dir-locals.el~ file for this directory
+Reference:
+- [[info:emacs#Directory%20Variables][info:emacs#Directory Variables]]
+
+** TODO All files
+*** TODO Wrap lines
+- EOL behavior
+  - [[help:toggle-truncate-lines][toggle-truncate-lines]]
+  - [[help:toggle-word-wrap][toggle-word-wrap]]
+- Wrap at last column
+  - [[help:visual-line-mode][visual-line-mode]]
+- Wrap at specific column
+  - [[help:set-fill-column][set-fill-column]]
+  - [[help:visual-fill-column-mode][visual-fill-column-mode]]
+
+*** TODO Remove unnecessary escape characters
+- [ ] "\." -> "."
+- [ ] "\-" -> "-"
+- [ ] "\(" -> "("
+- [ ] "\)" -> ")"
+
+At first, I was hoping to accomplish this using text properties just
+like with my plan to [[*Hide header anchors][hide header anchors]], but unfortunately, I don't
+think that is going to work, because elisp does not have lookahead
+assertions.  Essentially, I was hoping to match and hide *only* the
+backslash, but I cannot do that.
+
+An alternative would be to use [[info:elisp#Overlay%20Properties][overlay properties]] such as ~hidden~ and
+~before-string~... But I don't really know how I'm going to do that.
+
+** TODO Markdown
+*** TODO Hide markup
+- [[help:markdown-toggle-markup-hiding][markdown-toggle-markup-hiding]]
+
+*** TODO Clean up list numbers
+- [[help:markdown-cleanup-list-numbers][markdown-cleanup-list-numbers]]
+
+*** TODO Hide header anchors
+For example:
+
+#+CAPTION: Before
+#+BEGIN_EXAMPLE
+# Amazon ECR Registries<a name="Registries"></a>
+#+END_EXAMPLE
+
+#+CAPTION: After
+#+BEGIN_EXAMPLE
+# Amazon ECR Registries
+#+END_EXAMPLE
+
+This should be fairly easy to accomplish using the ~invisible~ text
+property applied to regexp matches of HTML tags in Markdown buffers
+using [[help:font-lock-mode][font-lock-mode]].
+
+References:
+- [[info:elisp#Invisible%20Text][info:elisp#Invisible Text]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Search_002dbased-Fontification.html#Search_002dbased-Fontification][Search-based Fontification]]
+- https://www.emacswiki.org/emacs/RegularExpression
+
+*** TODO Wrap text in list items appropriately
+Take a look at the ~wrap-prefix~ [[info:elisp#Overlay%20Properties][overlay property]].  That would be an
+excellent way to accomplish this.
+
+** TODO Restructured Text
+
+* TODO Make symlinks to each index file
+* TODO Correlate these docs with the CLI man pages
