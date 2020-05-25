@@ -1,7 +1,8 @@
-* README How to download offline AWS documentation
+* How to download offline AWS documentation
 :WHY:
 I find their web documentation to be quite lacking in usability.
-Also, makes it harder to link to from Org Mode, etc.
+Also, using their online documentation makes it harder to link to
+and from Org Mode, etc.
 
 Luckily, all of their documentation is open-sourced, so I can just
 clone all of their repos.
