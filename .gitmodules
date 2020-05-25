@@ -4,7 +4,7 @@
 	url = git@github.com:eeowaa/awsdocs-devenv.git
 	branch = .
 	shallow = false
-	fetchRecurseSubmodules = true
+	update = rebase
 
 # Regular submodules
 [submodule "alexa-for-business"]
