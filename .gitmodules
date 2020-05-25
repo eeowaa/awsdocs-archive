@@ -2,663 +2,829 @@
 	path = alexa-for-business
 	url = git@github.com:awsdocs/alexa-for-business-administration-guide.git
 	branch = master
+	shallow = true
 [submodule "amplify-console"]
 	path = amplify-console
 	url = git@github.com:awsdocs/aws-amplify-console-user-guide.git
 	branch = master
+	shallow = true
 [submodule "api-gateway"]
 	path = api-gateway
 	url = git@github.com:awsdocs/amazon-api-gateway-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "application-auto-scaling"]
 	path = application-auto-scaling
 	url = git@github.com:awsdocs/application-auto-scaling-user-guide.git
 	branch = master
+	shallow = true
 [submodule "application-discovery"]
 	path = application-discovery
 	url = git@github.com:awsdocs/amazon-application-discovery-user-guide.git
 	branch = master
+	shallow = true
 [submodule "app-mesh"]
 	path = app-mesh
 	url = git@github.com:awsdocs/aws-app-mesh-user-guide.git
 	branch = master
+	shallow = true
 [submodule "appstream2"]
 	path = appstream2
 	url = git@github.com:awsdocs/amazon-appstream2-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "artifact"]
 	path = artifact
 	url = git@github.com:awsdocs/aws-artifact-user-guide.git
 	branch = master
+	shallow = true
 [submodule "athena"]
 	path = athena
 	url = git@github.com:awsdocs/amazon-athena-user-guide.git
 	branch = master
+	shallow = true
 [submodule "aurora"]
 	path = aurora
 	url = git@github.com:awsdocs/amazon-aurora-user-guide.git
 	branch = master
+	shallow = true
 [submodule "auto-scaling"]
 	path = auto-scaling
 	url = git@github.com:awsdocs/aws-auto-scaling-user-guide.git
 	branch = master
+	shallow = true
 [submodule "aws-support"]
 	path = aws-support
 	url = git@github.com:awsdocs/aws-support-user-guide.git
 	branch = master
+	shallow = true
 [submodule "batch"]
 	path = batch
 	url = git@github.com:awsdocs/aws-batch-user-guide.git
 	branch = master
+	shallow = true
 [submodule "blockchain-templates"]
 	path = blockchain-templates
 	url = git@github.com:awsdocs/aws-blockchain-templates-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "cdk"]
 	path = cdk
 	url = git@github.com:awsdocs/aws-cdk-user-guide.git
 	branch = master
+	shallow = true
 [submodule "certificate"]
 	path = certificate
 	url = git@github.com:awsdocs/aws-certificate-user-guide.git
 	branch = master
+	shallow = true
 [submodule "chime"]
 	path = chime
 	url = git@github.com:awsdocs/amazon-chime-user-guide.git
 	branch = master
+	shallow = true
 [submodule "chime-admin"]
 	path = chime-admin
 	url = git@github.com:awsdocs/amazon-chime-administration-guide.git
 	branch = master
+	shallow = true
 [submodule "cli"]
 	path = cli
 	url = git@github.com:awsdocs/aws-cli-user-guide.git
 	branch = master
+	shallow = true
 [submodule "client-vpn"]
 	path = client-vpn
 	url = git@github.com:awsdocs/aws-client-vpn-user-guide.git
 	branch = master
+	shallow = true
 [submodule "client-vpn-admin"]
 	path = client-vpn-admin
 	url = git@github.com:awsdocs/aws-client-vpn-administrator-guide.git
 	branch = master
+	shallow = true
 [submodule "cloud9"]
 	path = cloud9
 	url = git@github.com:awsdocs/aws-cloud9-user-guide.git
 	branch = master
+	shallow = true
 [submodule "cloud-directory"]
 	path = cloud-directory
 	url = git@github.com:awsdocs/amazon-cloud-directory-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudformation"]
 	path = cloudformation
 	url = git@github.com:awsdocs/aws-cloudformation-user-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudfront"]
 	path = cloudfront
 	url = git@github.com:awsdocs/amazon-cloudfront-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudhsm"]
 	path = cloudhsm
 	url = git@github.com:awsdocs/aws-cloudhsm-user-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudsearch"]
 	path = cloudsearch
 	url = git@github.com:awsdocs/amazon-cloudsearch-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudtrail"]
 	path = cloudtrail
 	url = git@github.com:awsdocs/aws-cloudtrail-user-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudwatch"]
 	path = cloudwatch
 	url = git@github.com:awsdocs/amazon-cloudwatch-user-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudwatch-events"]
 	path = cloudwatch-events
 	url = git@github.com:awsdocs/amazon-cloudwatch-events-user-guide.git
 	branch = master
+	shallow = true
 [submodule "cloudwatch-logs"]
 	path = cloudwatch-logs
 	url = git@github.com:awsdocs/amazon-cloudwatch-logs-user-guide.git
 	branch = master
+	shallow = true
 [submodule "codebuild"]
 	path = codebuild
 	url = git@github.com:awsdocs/aws-codebuild-user-guide.git
 	branch = master
+	shallow = true
 [submodule "codecommit"]
 	path = codecommit
 	url = git@github.com:awsdocs/aws-codecommit-user-guide.git
 	branch = master
+	shallow = true
 [submodule "codedeploy"]
 	path = codedeploy
 	url = git@github.com:awsdocs/aws-codedeploy-user-guide.git
 	branch = master
+	shallow = true
 [submodule "codepipeline"]
 	path = codepipeline
 	url = git@github.com:awsdocs/aws-codepipeline-user-guide.git
 	branch = master
+	shallow = true
 [submodule "codestar"]
 	path = codestar
 	url = git@github.com:awsdocs/aws-codestar-user-guide.git
 	branch = master
+	shallow = true
 [submodule "comprehend"]
 	path = comprehend
 	url = git@github.com:awsdocs/amazon-comprehend-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "config"]
 	path = config
 	url = git@github.com:awsdocs/aws-config-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "connect"]
 	path = connect
 	url = git@github.com:awsdocs/amazon-connect-user-guide.git
 	branch = master
+	shallow = true
 [submodule "connect-admin"]
 	path = connect-admin
 	url = git@github.com:awsdocs/amazon-connect-admin-guide.git
 	branch = master
+	shallow = true
 [submodule "cost-mgmt"]
 	path = cost-mgmt
 	url = git@github.com:awsdocs/aws-cost-management-user-guide.git
 	branch = master
+	shallow = true
 [submodule "cryptography"]
 	path = cryptography
 	url = git@github.com:awsdocs/aws-cryptography-overview-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "data-pipeline"]
 	path = data-pipeline
 	url = git@github.com:awsdocs/aws-data-pipeline-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "deep-learning-amis"]
 	path = deep-learning-amis
 	url = git@github.com:awsdocs/aws-deep-learning-amis.git
 	branch = master
+	shallow = true
 [submodule "deeplens"]
 	path = deeplens
 	url = git@github.com:awsdocs/aws-deeplens-user-guide.git
 	branch = master
+	shallow = true
 [submodule "direct-connect"]
 	path = direct-connect
 	url = git@github.com:awsdocs/aws-direct-connect-user-guide.git
 	branch = master
+	shallow = true
 [submodule "directory-service"]
 	path = directory-service
 	url = git@github.com:awsdocs/aws-directory-service-admin-guide.git
 	branch = master
+	shallow = true
 [submodule "dms"]
 	path = dms
 	url = git@github.com:awsdocs/aws-dms-user-guide.git
 	branch = master
+	shallow = true
 [submodule "dms-step-by-step"]
 	path = dms-step-by-step
 	url = git@github.com:awsdocs/aws-dms-step-by-step.git
 	branch = master
+	shallow = true
 [submodule "doc-sdk-examples"]
 	path = doc-sdk-examples
 	url = git@github.com:awsdocs/aws-doc-sdk-examples.git
 	branch = master
+	shallow = true
 [submodule "doc-shared-content"]
 	path = doc-shared-content
 	url = git@github.com:awsdocs/aws-doc-shared-content.git
 	branch = master
+	shallow = true
 [submodule "dynamodb"]
 	path = dynamodb
 	url = git@github.com:awsdocs/amazon-dynamodb-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "dynamodb-encryption"]
 	path = dynamodb-encryption
 	url = git@github.com:awsdocs/aws-dynamodb-encryption-docs.git
 	branch = master
+	shallow = true
 [submodule "ec2"]
 	path = ec2
 	url = git@github.com:awsdocs/amazon-ec2-user-guide.git
 	branch = master
+	shallow = true
 [submodule "ec2-auto-scaling"]
 	path = ec2-auto-scaling
 	url = git@github.com:awsdocs/amazon-ec2-auto-scaling-user-guide.git
 	branch = master
+	shallow = true
 [submodule "ec2-windows"]
 	path = ec2-windows
 	url = git@github.com:awsdocs/amazon-ec2-user-guide-windows.git
 	branch = master
+	shallow = true
 [submodule "ecr"]
 	path = ecr
 	url = git@github.com:awsdocs/amazon-ecr-user-guide.git
 	branch = master
+	shallow = true
 [submodule "ecs"]
 	path = ecs
 	url = git@github.com:awsdocs/amazon-ecs-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "efs"]
 	path = efs
 	url = git@github.com:awsdocs/amazon-efs-user-guide.git
 	branch = master
+	shallow = true
 [submodule "eks"]
 	path = eks
 	url = git@github.com:awsdocs/amazon-eks-user-guide.git
 	branch = master
+	shallow = true
 [submodule "elasticache"]
 	path = elasticache
 	url = git@github.com:awsdocs/amazon-elasticache-docs.git
 	branch = master
+	shallow = true
 [submodule "elastic-beanstalk"]
 	path = elastic-beanstalk
 	url = git@github.com:awsdocs/aws-elastic-beanstalk-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "elastic-beanstalk-samples"]
 	path = elastic-beanstalk-samples
 	url = git@github.com:awsdocs/elastic-beanstalk-samples.git
 	branch = master
+	shallow = true
 [submodule "elasticsearch"]
 	path = elasticsearch
 	url = git@github.com:awsdocs/amazon-elasticsearch-service-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "elb"]
 	path = elb
 	url = git@github.com:awsdocs/elb-user-guide.git
 	branch = master
+	shallow = true
 [submodule "elb-application"]
 	path = elb-application
 	url = git@github.com:awsdocs/elb-application-load-balancers-user-guide.git
 	branch = master
+	shallow = true
 [submodule "elb-classic"]
 	path = elb-classic
 	url = git@github.com:awsdocs/elb-classic-load-balancers-user-guide.git
 	branch = master
+	shallow = true
 [submodule "elb-network"]
 	path = elb-network
 	url = git@github.com:awsdocs/elb-network-load-balancers-user-guide.git
 	branch = master
+	shallow = true
 [submodule "emr-mgmt"]
 	path = emr-mgmt
 	url = git@github.com:awsdocs/amazon-emr-management-guide.git
 	branch = master
+	shallow = true
 [submodule "emr-release"]
 	path = emr-release
 	url = git@github.com:awsdocs/amazon-emr-release-guide.git
 	branch = master
+	shallow = true
 [submodule "encryption-sdk"]
 	path = encryption-sdk
 	url = git@github.com:awsdocs/aws-encryption-sdk-docs.git
 	branch = master
+	shallow = true
 [submodule "example-apps"]
 	path = example-apps
 	url = git@github.com:awsdocs/aws-example-apps.git
 	branch = master
+	shallow = true
 [submodule "freertos"]
 	path = freertos
 	url = git@github.com:awsdocs/aws-freertos-docs.git
 	branch = master
+	shallow = true
 [submodule "fsx-lustre"]
 	path = fsx-lustre
 	url = git@github.com:awsdocs/amazon-fsx-lustre-user-guide.git
 	branch = master
+	shallow = true
 [submodule "fsx-windows"]
 	path = fsx-windows
 	url = git@github.com:awsdocs/amazon-fsx-windows-user-guide.git
 	branch = master
+	shallow = true
 [submodule "glacier"]
 	path = glacier
 	url = git@github.com:awsdocs/amazon-glacier-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "global-accelerator"]
 	path = global-accelerator
 	url = git@github.com:awsdocs/aws-global-accelerator-dev-guide.git
 	branch = master
+	shallow = true
 [submodule "glue"]
 	path = glue
 	url = git@github.com:awsdocs/aws-glue-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "greengrass"]
 	path = greengrass
 	url = git@github.com:awsdocs/aws-greengrass-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "guardduty"]
 	path = guardduty
 	url = git@github.com:awsdocs/amazon-guardduty-user-guide.git
 	branch = master
+	shallow = true
 [submodule "iam"]
 	path = iam
 	url = git@github.com:awsdocs/iam-user-guide.git
 	branch = master
+	shallow = true
 [submodule "inspector"]
 	path = inspector
 	url = git@github.com:awsdocs/amazon-inspector-user-guide.git
 	branch = master
+	shallow = true
 [submodule "iot"]
 	path = iot
 	url = git@github.com:awsdocs/aws-iot-docs.git
 	branch = master
+	shallow = true
 [submodule "iot-sitewise"]
 	path = iot-sitewise
 	url = git@github.com:awsdocs/aws-iot-sitewise-user-guide.git
 	branch = master
+	shallow = true
 [submodule "iot-sitewise-api"]
 	path = iot-sitewise-api
 	url = git@github.com:awsdocs/aws-iot-sitewise-api-docs.git
 	branch = master
+	shallow = true
 [submodule "kinesis-data-analytics"]
 	path = kinesis-data-analytics
 	url = git@github.com:awsdocs/amazon-kinesis-data-analytics-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "kinesis-data-firehose"]
 	path = kinesis-data-firehose
 	url = git@github.com:awsdocs/amazon-kinesis-data-firehose-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "kinesis-data-streams"]
 	path = kinesis-data-streams
 	url = git@github.com:awsdocs/amazon-kinesis-data-streams-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "kinesis-video"]
 	path = kinesis-video
 	url = git@github.com:awsdocs/AWS-Kinesis-Video-Documentation.git
 	branch = master
+	shallow = true
 [submodule "kms"]
 	path = kms
 	url = git@github.com:awsdocs/aws-kms-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "lambda"]
 	path = lambda
 	url = git@github.com:awsdocs/aws-lambda-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "lex"]
 	path = lex
 	url = git@github.com:awsdocs/amazon-lex-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "lumberyard"]
 	path = lumberyard
 	url = git@github.com:awsdocs/amazon-lumberyard-getting-started-guide.git
 	branch = master
+	shallow = true
 [submodule "machinelearning"]
 	path = machinelearning
 	url = git@github.com:awsdocs/amazon-machinelearning-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "macie"]
 	path = macie
 	url = git@github.com:awsdocs/macie-user-guide.git
 	branch = master
+	shallow = true
 [submodule "management-portal-for-vcenter"]
 	path = management-portal-for-vcenter
 	url = git@github.com:awsdocs/aws-management-portal-for-vcenter-user-guide.git
 	branch = master
+	shallow = true
 [submodule "marketplace-buyers"]
 	path = marketplace-buyers
 	url = git@github.com:awsdocs/aws-marketplace-user-guide-for-buyers.git
 	branch = master
+	shallow = true
 [submodule "marketplace-sellers"]
 	path = marketplace-sellers
 	url = git@github.com:awsdocs/aws-marketplace-user-guide-for-sellers.git
 	branch = master
+	shallow = true
 [submodule "mediaconnect"]
 	path = mediaconnect
 	url = git@github.com:awsdocs/aws-elemental-mediaconnect-user-guide.git
 	branch = master
+	shallow = true
 [submodule "mediaconvert"]
 	path = mediaconvert
 	url = git@github.com:awsdocs/aws-elemental-mediaconvert-user-guide.git
 	branch = master
+	shallow = true
 [submodule "medialive"]
 	path = medialive
 	url = git@github.com:awsdocs/aws-elemental-medialive-user-guide.git
 	branch = master
+	shallow = true
 [submodule "mediapackage"]
 	path = mediapackage
 	url = git@github.com:awsdocs/aws-elemental-mediapackage-user-guide.git
 	branch = master
+	shallow = true
 [submodule "mediastore"]
 	path = mediastore
 	url = git@github.com:awsdocs/aws-elemental-mediastore-user-guide.git
 	branch = master
+	shallow = true
 [submodule "mediatailor"]
 	path = mediatailor
 	url = git@github.com:awsdocs/aws-elemental-mediatailor-user-guide.git
 	branch = master
+	shallow = true
 [submodule "migrationhub"]
 	path = migrationhub
 	url = git@github.com:awsdocs/amazon-migrationhub-user-guide.git
 	branch = master
+	shallow = true
 [submodule "mobile"]
 	path = mobile
 	url = git@github.com:awsdocs/aws-mobile-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "mq"]
 	path = mq
 	url = git@github.com:awsdocs/amazon-mq-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "mxnet-on-aws"]
 	path = mxnet-on-aws
 	url = git@github.com:awsdocs/mxnet-on-aws-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "nice-dcv"]
 	path = nice-dcv
 	url = git@github.com:awsdocs/nice-dcv-user-guide.git
 	branch = master
+	shallow = true
 [submodule "nice-dcv-admin"]
 	path = nice-dcv-admin
 	url = git@github.com:awsdocs/nice-dcv-admin-guide.git
 	branch = master
+	shallow = true
 [submodule "opsworks"]
 	path = opsworks
 	url = git@github.com:awsdocs/aws-opsworks-user-guide.git
 	branch = master
+	shallow = true
 [submodule "organizations"]
 	path = organizations
 	url = git@github.com:awsdocs/aws-organizations-docs.git
 	branch = master
+	shallow = true
 [submodule "personal-health-dashboard"]
 	path = personal-health-dashboard
 	url = git@github.com:awsdocs/aws-personal-health-dashboard.git
 	branch = master
+	shallow = true
 [submodule "pinpoint"]
 	path = pinpoint
 	url = git@github.com:awsdocs/amazon-pinpoint-user-guide.git
 	branch = master
+	shallow = true
 [submodule "pinpoint-dev"]
 	path = pinpoint-dev
 	url = git@github.com:awsdocs/amazon-pinpoint-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "polly"]
 	path = polly
 	url = git@github.com:awsdocs/amazon-polly-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "pricing-calculator"]
 	path = pricing-calculator
 	url = git@github.com:awsdocs/aws-pricing-calculator-user-guide.git
 	branch = master
+	shallow = true
 [submodule "private-ca"]
 	path = private-ca
 	url = git@github.com:awsdocs/aws-private-ca-user-guide.git
 	branch = master
+	shallow = true
 [submodule "quicksight"]
 	path = quicksight
 	url = git@github.com:awsdocs/amazon-quicksight-user-guide.git
 	branch = master
+	shallow = true
 [submodule "rds"]
 	path = rds
 	url = git@github.com:awsdocs/amazon-rds-user-guide.git
 	branch = master
+	shallow = true
 [submodule "redshift-dev"]
 	path = redshift-dev
 	url = git@github.com:awsdocs/amazon-redshift-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "redshift-getting-started"]
 	path = redshift-getting-started
 	url = git@github.com:awsdocs/amazon-redshift-getting-started-guide.git
 	branch = master
+	shallow = true
 [submodule "redshift-mgmt"]
 	path = redshift-mgmt
 	url = git@github.com:awsdocs/amazon-redshift-management-guide.git
 	branch = master
+	shallow = true
 [submodule "rekognition"]
 	path = rekognition
 	url = git@github.com:awsdocs/amazon-rekognition-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "resource-access-manager"]
 	path = resource-access-manager
 	url = git@github.com:awsdocs/aws-resource-access-manager-user-guide.git
 	branch = master
+	shallow = true
 [submodule "resource-groups"]
 	path = resource-groups
 	url = git@github.com:awsdocs/aws-resource-groups-user-guide.git
 	branch = master
+	shallow = true
 [submodule "robomaker"]
 	path = robomaker
 	url = git@github.com:awsdocs/aws-robomaker-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "route53"]
 	path = route53
 	url = git@github.com:awsdocs/amazon-route53-docs.git
 	branch = master
+	shallow = true
 [submodule "s3"]
 	path = s3
 	url = git@github.com:awsdocs/amazon-s3-user-guide.git
 	branch = master
+	shallow = true
 [submodule "s3-dev"]
 	path = s3-dev
 	url = git@github.com:awsdocs/amazon-s3-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "s3-getting-started"]
 	path = s3-getting-started
 	url = git@github.com:awsdocs/amazon-s3-getting-started-guide.git
 	branch = master
+	shallow = true
 [submodule "sagemaker"]
 	path = sagemaker
 	url = git@github.com:awsdocs/amazon-sagemaker-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "sam-developer"]
 	path = sam-developer
 	url = git@github.com:awsdocs/aws-sam-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "sct"]
 	path = sct
 	url = git@github.com:awsdocs/aws-sct-user-guide.git
 	branch = master
+	shallow = true
 [submodule "secrets-manager"]
 	path = secrets-manager
 	url = git@github.com:awsdocs/aws-secrets-manager-docs.git
 	branch = master
+	shallow = true
 [submodule "serverlessrepo"]
 	path = serverlessrepo
 	url = git@github.com:awsdocs/aws-serverlessrepo-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "server-migration-service"]
 	path = server-migration-service
 	url = git@github.com:awsdocs/aws-server-migration-service-user-guide.git
 	branch = master
+	shallow = true
 [submodule "service-catalog"]
 	path = service-catalog
 	url = git@github.com:awsdocs/aws-service-catalog-admin-guide.git
 	branch = master
+	shallow = true
 [submodule "ses"]
 	path = ses
 	url = git@github.com:awsdocs/amazon-ses-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "site-to-site-vpn"]
 	path = site-to-site-vpn
 	url = git@github.com:awsdocs/aws-site-to-site-vpn-user-guide.git
 	branch = master
+	shallow = true
 [submodule "snowball"]
 	path = snowball
 	url = git@github.com:awsdocs/aws-snowball-user-guide.git
 	branch = master
+	shallow = true
 [submodule "snowball-dev"]
 	path = snowball-dev
 	url = git@github.com:awsdocs/aws-snowball-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "speke-drm"]
 	path = speke-drm
 	url = git@github.com:awsdocs/aws-elemental-speke-drm-docs.git
 	branch = master
+	shallow = true
 [submodule "sqs"]
 	path = sqs
 	url = git@github.com:awsdocs/amazon-sqs-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "sso"]
 	path = sso
 	url = git@github.com:awsdocs/aws-single-sign-on-user-guide.git
 	branch = master
+	shallow = true
 [submodule "step-functions"]
 	path = step-functions
 	url = git@github.com:awsdocs/aws-step-functions-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "storagegateway"]
 	path = storagegateway
 	url = git@github.com:awsdocs/aws-storagegateway-user-guide.git
 	branch = master
+	shallow = true
 [submodule "sumerian"]
 	path = sumerian
 	url = git@github.com:awsdocs/amazon-sumerian-user-guide.git
 	branch = master
+	shallow = true
 [submodule "systems-manager"]
 	path = systems-manager
 	url = git@github.com:awsdocs/aws-systems-manager-user-guide.git
 	branch = master
+	shallow = true
 [submodule "transcoder"]
 	path = transcoder
 	url = git@github.com:awsdocs/amazon-transcoder-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "transcribe"]
 	path = transcribe
 	url = git@github.com:awsdocs/amazon-transcribe-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "transit-gateway"]
 	path = transit-gateway
 	url = git@github.com:awsdocs/aws-transit-gateway-guide.git
 	branch = master
+	shallow = true
 [submodule "translate"]
 	path = translate
 	url = git@github.com:awsdocs/amazon-translate-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "vm-import-export"]
 	path = vm-import-export
 	url = git@github.com:awsdocs/vm-import-export-user-guide.git
 	branch = master
+	shallow = true
 [submodule "vpc"]
 	path = vpc
 	url = git@github.com:awsdocs/amazon-vpc-user-guide.git
 	branch = master
+	shallow = true
 [submodule "vpc-admin"]
 	path = vpc-admin
 	url = git@github.com:awsdocs/amazon-vpc-network-administrator-guide.git
 	branch = master
+	shallow = true
 [submodule "vpc-peering"]
 	path = vpc-peering
 	url = git@github.com:awsdocs/amazon-vpc-peering-guide.git
 	branch = master
+	shallow = true
 [submodule "waf-and-shield"]
 	path = waf-and-shield
 	url = git@github.com:awsdocs/aws-waf-and-shield-advanced-developer-guide.git
 	branch = master
+	shallow = true
 [submodule "workdocs"]
 	path = workdocs
 	url = git@github.com:awsdocs/amazon-workdocs-user-guide.git
 	branch = master
+	shallow = true
 [submodule "workdocs-admin"]
 	path = workdocs-admin
 	url = git@github.com:awsdocs/amazon-workdocs-administration-guide.git
 	branch = master
+	shallow = true
 [submodule "workdocs-dev"]
 	path = workdocs-dev
 	url = git@github.com:awsdocs/amazon-workdocs-dev-guide.git
 	branch = master
+	shallow = true
 [submodule "workmail"]
 	path = workmail
 	url = git@github.com:awsdocs/amazon-workmail-user-guide.git
 	branch = master
+	shallow = true
 [submodule "workmail-admin"]
 	path = workmail-admin
 	url = git@github.com:awsdocs/amazon-workmail-administration-guide.git
 	branch = master
+	shallow = true
 [submodule "workspaces"]
 	path = workspaces
 	url = git@github.com:awsdocs/amazon-workspaces-user-guide.git
 	branch = master
+	shallow = true
 [submodule "workspaces-admin"]
 	path = workspaces-admin
 	url = git@github.com:awsdocs/amazon-workspaces-administration-guide.git
 	branch = master
+	shallow = true
 [submodule "xray"]
 	path = xray
 	url = git@github.com:awsdocs/aws-xray-developer-guide.git
 	branch = master
+	shallow = true
