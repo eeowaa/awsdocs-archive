@@ -1,3 +1,12 @@
+# Submodules containing other submodules
+[submodule "awsdocs-devenv"]
+	path = __devenv__
+	url = git@github.com:eeowaa/awsdocs-devenv.git
+	branch = .
+	shallow = false
+	fetchRecurseSubmodules = true
+
+# Regular submodules
 [submodule "alexa-for-business"]
 	path = alexa-for-business
 	url = git@github.com:awsdocs/alexa-for-business-administration-guide.git
